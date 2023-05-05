@@ -1,0 +1,14 @@
+html {
+    font-size: 16px;
+  }
+  
+body {
+    font-family: "Open sans", sans-serif;
+}
+
+.label {
+    border: 2px solid black; /*рамка 2пікселі суцільна лінія чорна*/
+    width: 270px; /*ширина рамки 270пікс <div class="label">*/
+    margin: 20px auto; /*встановлює область полів на всіх чотирьох сторонах елемента.margin https://developer.mozilla.org/en-US/docs/Web/CSS/margin */
+    padding: 0 7px;
+}
