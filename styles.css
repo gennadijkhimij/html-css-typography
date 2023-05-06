@@ -10,5 +10,30 @@ body {
     border: 2px solid black; /*рамка 2пікселі суцільна лінія чорна*/
     width: 270px; /*ширина рамки 270пікс <div class="label">*/
     margin: 20px auto; /*встановлює область полів на всіх чотирьох сторонах елемента.margin https://developer.mozilla.org/en-US/docs/Web/CSS/margin */
-    padding: 0 7px;
+    padding: 0 7px; /*встановлює область заповнення на всіх чотирьох сторонах елемента одночасно.padding  
+    https://developer.mozilla.org/en-US/docs/Web/CSS/padding */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px; /* встановлює поведінку горизонтального інтервалу між текстовими символами. Це значення додається до природного інтервалу між символами під час відтворення тексту. Позитивні значення призводять до того, що символи розходяться один від одного, тоді як від’ємні значення зближують символи. https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing */
+}
+
+p {
+    margin: 0;
+}
+
+.divider {
+    border-bottom: 1px solid #888989; /*встановлює нижню межу елемента . Він встановлює значення , і .border-bottom https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom */
+    margin: 2px 0;
+}
+
+.bold {
+    font-weight: 800; /* встановлює щільність (або жирність) шрифту. Доступні ваги залежать від поточного настроювання.font-weight https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
+
 }
