@@ -39,3 +39,12 @@ p {
     font-weight: 800; /* встановлює щільність (або жирність) шрифту. Доступні ваги залежать від поточного настроювання.font-weight https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 
 }
+
+.large {
+    height: 10px; /* визначає висоту елемента https://developer.mozilla.org/en-US/docs/Web/CSS/height*/
+  }
+  
+  .large, .medium {
+    background-color: black; /*встановлює колір фону елемента.background-color https://developer.mozilla.org/en-US/docs/Web/CSS/background-color */
+    border: 0; /*встановлює межу елемента https://developer.mozilla.org/en-US/docs/Web/CSS/border*/
+  }
