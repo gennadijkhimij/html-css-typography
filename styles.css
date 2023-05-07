@@ -18,7 +18,7 @@ body {
     box-sizing: border-box;
 }
 
-h1 {
+header h1 {
     text-align: center;
     margin: -4px 0;
     letter-spacing: 0.15px; /* встановлює поведінку горизонтального інтервалу між текстовими символами. Це значення додається до природного інтервалу між символами під час відтворення тексту. Позитивні значення призводять до того, що символи розходяться один від одного, тоді як від’ємні значення зближують символи. https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing */
@@ -26,6 +26,8 @@ h1 {
 
 p {
     margin: 0;
+    display: flex; /* https://developer.mozilla.org/en-US/docs/Web/CSS/display*/
+    justify-content: space-between; /*визначає, як браузер розподіляє простір між і навколо елементів вмісту https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content */
 }
 
 .divider {
