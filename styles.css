@@ -48,3 +48,17 @@ p {
     background-color: black; /*встановлює колір фону елемента.background-color https://developer.mozilla.org/en-US/docs/Web/CSS/background-color */
     border: 0; /*встановлює межу елемента https://developer.mozilla.org/en-US/docs/Web/CSS/border*/
   }
+
+  .small-text {
+    font-size: 0.85rem;
+  }
+
+  .calories-info h2 {
+    margin: 0;
+  }
+
+  .calories-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
